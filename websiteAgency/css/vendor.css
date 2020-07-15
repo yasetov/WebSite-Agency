@@ -1992,6 +1992,7 @@ Arrow buttons hit area
 
 .pswp__share-tooltip a:last-child {
   border-radius: 0 0 3px 3px;
+  display: none;
 }
 
 .pswp__share-modal--fade-in {

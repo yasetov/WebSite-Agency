@@ -2454,7 +2454,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1600px) {
   .home-content h1 {
-    font-size: 17rem;
+    font-size: 13rem;
   }
 
   .home-content h3 {
@@ -2465,7 +2465,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-content h1 {
-    font-size: 16rem;
+    font-size: 12rem;
   }
 
   .home-content h3 {
@@ -3155,6 +3155,7 @@ html.no-csstransitions .home-content__main {
   -webkit-transform: translate3d(0, -100%, 0);
   -ms-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
+  display: none;
 }
 
 .item-folio__project-link i {

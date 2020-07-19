@@ -1,57 +1,16 @@
 /* =================================================================== 
  *
- *  Sublime v1.0 Main Stylesheet
- *  06-10-2018
+ *  WebSite Agency
+ *  2020
  *  ------------------------------------------------------------------
  *
- *  TOC:
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing 
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles
- *  # buttons
- *  # additional components
- *    ## alert box
- *    ## additional typo styles
- *    ## skillbars
- *  # reusable and common theme styles
- *    ## display headings
- *    ## section header
- *    ## grid overlay
- *  # header styles
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle 
- *  # home
- *    ## home content
- *    ## home video link
- *    ## home buttons
- *    ## home scroll
- *    ## home social
- *    ## home animations
- *  # about
- *    ## about process
- *  # services  
- *    ## services list
- *  # works
- *    ## bricks/masonry
- *  # clients
- *  # testimonials
- *  # contact
- *    ## contact social
- *  # footer
- *    ## copyright
- *    ## go top
- *
+ * VARIABLES
  * =================================================================== */
+
+  :root {
+    --green: #1beb11;
+    --green-dark: #1beb11ad;
+  }
 
 
 /* ===================================================================
@@ -1670,8 +1629,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 155px;
-  height: 36px;
+  max-width: 100%;
+  height: 335px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1732,7 +1691,7 @@ body.menu-is-open {
   display: block;
   height: 1px;
   width: 110px;
-  background-color: #793ea5;
+  background-color: var(--green);
   position: absolute;
   top: 50%;
   right: 0;
@@ -1790,11 +1749,11 @@ body.menu-is-open {
 }
 
 .header-nav__list a:hover::before {
-  color: #793ea5;
+  color: #f96332;
 }
 
 .header-nav__list .current a::before {
-  color: #793ea5;
+  color: #f96332;
 }
 
 .header-nav__social {
@@ -1940,7 +1899,9 @@ body.menu-is-open {
 .header-menu-icon::after {
   bottom: -9px;
 }
-
+.blocktext {
+  text-align: justify;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
@@ -2218,15 +2179,15 @@ body.menu-is-open {
 }
 
 .home-content__button .btn:not(.btn--primary) {
-  background-color: #13161b;
-  border-color: #13161b;
+  background-color: var(--green-dark);
+  border-color: var(--green);
   color: #FFFFFF;
 }
 
 .home-content__button .btn:not(.btn--primary):hover,
 .home-content__button .btn:not(.btn--primary):focus {
-  background-color: #080a0c;
-  border-color: #080a0c;
+  background-color: var(--green-dark);
+  border-color: var(--green);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3846,12 +3807,12 @@ footer a {
   display: none;
 }
 .fa-heart {
-  color: red;
+  color: var(--green);
 }
 
 .ss-go-top a {
-  color: #ffffff;
-  background-color: #ffffff3b;
+  color: rgb(255, 255, 255);
+  background-color: #ffffff29;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;

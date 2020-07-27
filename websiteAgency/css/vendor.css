@@ -1,23 +1,4 @@
-/* =================================================================== 
- *
- *  Sublime v1.0 Vendor/Third Party CSS 
- *  06-10-2018
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # animate on scroll
- *  # slick slider
- *  # lity
- *  # PhotoSwipe main CSS
- *  # PhotoSwipe Skin
- *
- * =================================================================== */
 
-
-/* ===================================================================
- * # animate on scroll 
- * https://michalsnik.github.io/aos/
- * ------------------------------------------------------------------- */
 [data-aos][data-aos][data-aos-duration='50'],
 body[data-aos-duration='50'] [data-aos] {
   transition-duration: 50ms;
